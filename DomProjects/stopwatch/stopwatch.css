@@ -1,0 +1,56 @@
+.container {
+    width: 60%;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    width: 100%;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0px auto;
+    padding: 35px;
+}
+
+.buttons {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.startbtn button{
+    background-color: rgb(31, 1, 1);
+    padding: 10px 30px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.startbtn button:hover {
+    background-color: rgba(31, 1, 1, 0.89);
+
+}
+.resetbtn button{
+    background-color: rgb(50, 59, 50);
+    padding: 10px 30px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.resetbtn button:hover{
+    background-color: rgba(21, 27, 21, 0.801);
+}
+.pausebtn button{
+    background-color: rgb(5, 37, 5);
+    padding: 10px 30px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.pausebtn button:hover {
+    background-color: rgba(5, 37, 5, 0.856);
+}
